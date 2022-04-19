@@ -35,7 +35,7 @@ button:hover{
 
 /*Estilos del header*/
 header{
-    background-color: rgb(245,245,245);
+    background-image: linear-gradient(to right, red, yellow);
 }
 
 header .logo{
