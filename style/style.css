@@ -20,7 +20,7 @@ button{
     border-radius: 5px;
     border: 2px solid rgba(0,0,0.5);
     box-shadow: 2px 2px 10px rgba(0,0,0.5);
-    background-color: blueviolet;
+    background-color: white;
     color: white;
 }
 /*Estilo del boton principal*/
@@ -28,6 +28,14 @@ button:hover{
     background-color: rgb(99, 25, 168);
 }
 
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:visited{
+    text-decoration: none;
+    color: black;
+}
 .container{
     max-width: 1400px;
     margin: auto;
@@ -117,6 +125,16 @@ footer p{
     font-family: 'Boogaloo', cursive;
     color: rgb(245,245,245);
     text-align: center;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: ease-in;
+    animation-delay: 2s;
+}
+@keyframes animacion{
+    0%{
+        color: blue;
+        font-size: 60px;
+    }
 }
 
 .grid-container{
@@ -396,10 +414,21 @@ textarea{
     margin-top: 0;
     font-size: 3.1em;
     font-family: 'Boogaloo', cursive;
+    animation-name: animacion-2;
+    animation-duration: 2s;
+    animation-iteration-count: ease-in;
+    animation-delay: 2s;
+}
+
+@keyframes animacion-2{
+    0%{
+        color: red;
+        font-size: 60px;
+    }
 }
 
 #preguntas-pi .container{
-    padding: 61px 12px;
+    padding: 62px 12px;
 }
 
 .preguntas-p{
@@ -639,8 +668,34 @@ textarea{
     }
 }
 
+@media screen and (max-width: 440px){
+    form{
+        width: 350px;
+        margin: auto;
+        background: rgba(0,0,0,0.4);
+        padding: 100px 20px;
+        padding-bottom: 85px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 7px;
+    }
+}
+
 @media screen and (max-width: 355px){
     .bienvenida{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    form{
+        width: 290px;
+        margin: auto;
+        background: rgba(0,0,0,0.4);
+        padding: 100px 20px;
+        padding-bottom: 85px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 7px;
     }
 }
