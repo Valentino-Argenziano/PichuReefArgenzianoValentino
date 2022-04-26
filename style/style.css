@@ -34,23 +34,11 @@ button:hover{
 }
 
 /*Estilos del header*/
-header{
-    background-color: rgb(245,245,245);
+
+.nav-largo{
+    padding: 21px;
 }
 
-header .logo{
-    margin: 0;
-    padding: 25px 30px ;
-    font-weight: bold;
-    color: blueviolet;
-    font-size: 1.65em;
-}
-
-header .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 header nav{
     display: flex;
@@ -66,9 +54,7 @@ header a{
     color: black;
 }
 
-header:hover{
-    color: blueviolet;
-}
+
 
 /*Imagen de fondo de la pagina principal*/
 
@@ -327,46 +313,11 @@ footer p{
     background-color: rgb(245,245,245);
 }
 
-/*Estilo Seccion Caracteristicas*/
-
-
-ul{
-    list-style: none;
-}
-
-li{
-    font-size: 2.5em;
-}
-
-
-.main-div-caracteristicas{
-    width: 100%;
-    height: 796px;
-    background-color: rgb(30,30,30);
-    display: flex;
-    flex-direction: row;
-
-}
-.div-coral-decoracion{
-    width: 500px;
-    height: 400px;
-}
-.div-coral-decoracion img{
-    width: 500px;
-    height: 400px;
-    margin-top: 180px;
-    margin-left: 200px;
-}
-
-.contenedor-ul{
-    width: 700px;
-    height: 350px;
-    margin-left: 100px;
-}
-.contenedor-ul li{
-    color: rgb(245,245,245);
-    font-family: 'Boogaloo', cursive;
-    font-size: 3.5em;
+.bienvenida-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245,245,245);
 }
 
 
@@ -489,16 +440,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul{
-        justify-content: center;
-    }
-
-    .div-coral-decoracion img{
-        display: flex;
-        width: 400px;
-        height: 400px;
-    }
-
     #somos-pireef{
         justify-content: normal;
     }
@@ -522,17 +463,6 @@ textarea{
 
     form{
         margin-top: 100px;
-    }
-
-    .contenedor-ul{
-        justify-content: center;
-        font-size: 0.8em;
-    }
-
-    .div-coral-decoracion img{
-        display: flex;
-        width: 350px;
-        height: 350px;
     }
 
     #somos-pireef{
@@ -560,18 +490,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul{
-        justify-content: center;
-        font-size: 0.7em;
-        padding-right: 20px;
-    }
-
-    .div-coral-decoracion img{
-        display: flex;
-        margin-right: 20px;
-        width: 300px;
-        height: 300px;
-    }
 
     #somos-pireef{
         justify-content: normal;
@@ -598,14 +516,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul{
-        justify-content: center;
-        font-size: 1em;
-    }
-
-    .div-coral-decoracion img{
-        display: none;
-    }
 
     #somos-pireef{
         justify-content: normal;
@@ -632,13 +542,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul{
-        justify-content: center;
-    }
-
-    .div-coral-decoracion img{
-        display: none;
-    }
 
     #somos-pireef{
         justify-content: normal;
@@ -666,13 +569,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul{
-        justify-content: center;
-    }
-
-    .div-coral-decoracion img{
-        display: none;
-    }
 
     #somos-pireef{
         justify-content: normal;
@@ -699,13 +595,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul{
-        justify-items: center;
-    }
-
-    .div-coral-decoracion img{
-        display: none;
-    }
 
     .grid-container{
         justify-items: center;
@@ -736,14 +625,6 @@ textarea{
         margin-top: 100px;
     }
 
-    .contenedor-ul li{
-        justify-content: center;
-        font-size: 2.8em
-    }
-
-    .div-coral-decoracion img{
-        display: none;
-    }
 
     .grid-container{
         justify-items: center;
@@ -751,5 +632,15 @@ textarea{
 
     #somos-pireef{
         justify-content: normal;
+    }
+
+    .bienvenida-2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .bienvenida{
+        font-size: 14px;
     }
 }
