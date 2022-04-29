@@ -699,3 +699,12 @@ textarea{
         border-radius: 7px;
     }
 }
+
+@media screen and (max-width: 323px){
+    .bienvenida{
+        font-size: 13px;
+    }
+    footer{
+        padding: 20px;
+    }
+}
