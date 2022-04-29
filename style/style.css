@@ -668,6 +668,15 @@ textarea{
     }
 }
 
+@media screen and (max-width: 529px){
+    .bienvenida{
+        font-size: 14px;
+    }
+    #somos-pireef{
+        justify-content: normal;
+    }
+}
+
 @media screen and (max-width: 440px){
     form{
         width: 350px;
@@ -679,11 +688,17 @@ textarea{
         margin-top: 20px;
         border-radius: 7px;
     }
+    #somos-pireef{
+        justify-content: normal;
+    }
 }
 
 @media screen and (max-width: 355px){
     .bienvenida{
         font-size: 14px;
+    }
+    #somos-pireef{
+        justify-content: normal;
     }
 }
 
@@ -698,13 +713,16 @@ textarea{
         margin-top: 20px;
         border-radius: 7px;
     }
+    #somos-pireef{
+        justify-content: normal;
+    }
 }
 
 @media screen and (max-width: 323px){
     .bienvenida{
         font-size: 13px;
     }
-    footer{
-        padding: 20px;
+    #somos-pireef{
+        justify-content: normal;
     }
 }
