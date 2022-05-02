@@ -272,6 +272,31 @@ footer p{
 
 }
 
+/*Estilo seccion corales*/
+
+#nuestros-corales{
+    background-color: rgb(30,30,30);
+}
+
+#nuestros-corales .galeria-h2{
+    margin-top: 0px;
+    font-size: 3.1em;
+    background-color: rgb(30,30,30);
+    font-family: 'Boogaloo', cursive;
+    color: rgb(245,245,245);
+    text-align: center;
+    animation-name: animacion-3;
+    animation-duration: 2s;
+    animation-iteration-count: ease-in;
+    animation-delay: 2s;
+}
+@keyframes animacion-3{
+    0%{
+        color: blueviolet;
+        font-size: 60px;
+    }
+}
+
 /*Estilo Seccion Nosotros*/
 
 #somos-pireef{
